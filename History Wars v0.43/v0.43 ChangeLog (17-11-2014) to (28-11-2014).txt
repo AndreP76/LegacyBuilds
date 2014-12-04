@@ -1,0 +1,34 @@
+O que falta fazer:
+
+
+
+O que esta feito:
+-Melhorado o código de controlo da Camara;
+-Adicionado display de FPS;
+-Mudada a variavel de AIScore para a classe AIBehaviour;
+-Correções de erros e melhorias de outras melhorias no código;
+-Melhorar os erros do código de restartGame;
+-Melhorar o código da criação de torres;
+-Adicionar a variavel do movimento às decisões da AIMedium;
+-AIMedium manda mais do que uma tropa para as linhas sem tropas do jogador;
+-AIMedium usa as variaveis Custo e velocidade do Movimento para determinar a melhor tropa para combate;
+-AIFacil tem um limite de 10 tropas em campo;
+-AIMedium tem um limite maior de tropas que pode instanciar no campo de batalha;
+-AIMedium tem um novo algoritmo de verificação de finanças;
+-AIMedium utiliza a situação financeira para escolher as melhores tropas para o combate;
+-Adicionar a variavel o custo às decisões da AIFacil;
+-Melhorar AIMedium;
+-AIMedium deve enviar tropas para capturar bandeiras. Esse deve ser um objectivo mais importante
+do que enviar tropas para lugares vazios;
+-Implementar AIHard;
+-Corrigidos vários erros para a versão final da build.
+
+Ficheiros alterados:
+-CameraMovement.cs;
+-FPSDisplayScript.cs;
+-AIbehaviour.cs;
+-AIEasy.cs;
+-AIMedium.cs;
+-Stats.cs;
+-GlobalVariables.cs;
+-ObjectGroup.cs;

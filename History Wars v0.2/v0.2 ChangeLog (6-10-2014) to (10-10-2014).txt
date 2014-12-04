@@ -1,0 +1,47 @@
+O que falta fazer:
+-Guiar tropas atraves do toque;
+-Adaptar a velocidade das tropas em fila. (Apenas para casos em que a velocidade da tropa da frente é inferior)
+-Adicionar novo menu de selecção de tropas;
+-Animações no menu de selceção de tropas;
+-Score da inteligencia artificial;
+-Mostrar o score em azul quando o jogador ganha pontos de score;
+
+
+O que esta feito:
+-Atualizado o codigo de detenção de tropas dentro do hexagono;
+-Mostrar o valor de bonus de range de cada hexagono no UI;
+-Implementar um novo controlo de movimentos e velocidade;
+-Controlar a velocidade conforme o tipo de tropa e o hexagono que ocupa;
+-Animação de pausa de movimento;
+-Dois cliques para fazer para uma tropa.
+-Remover a selecção se clicarmos fora do campo de batalha.
+-Detenção do combate;
+-Pequena animação de combate;
+-Score;
+-Corrigido o erro de contagem do tempo quando se fazia restart;
+-É possivel ver alguns dos atributos de cada tropa no UI quando selecionada.
+-Combate entre tropas;
+-Objectivo do jogo;
+-Game Over;
+-Objectivo concluido por parte do jogador;
+-Corrigido o erro que não deixava uma tropa reconhecer a Flag;
+-Corrigidos alguns erros no combate;
+-Score aparece a em vermelho quando não ha dinheiro soficiente;
+-AI Facil actualizada para o novo gameplay;
+-Corrigido o erro que fazia desaparecer as tropas do mapa;
+-Se o jogador matar tropas inimigas ganha um bonus de score;
+-Se alguma tropa do jogador chegar ao fim do mapa este recebe pontos de score;
+-Correcção de outros erros;
+
+Ficheiros alterados:
+-GlobalVariables.cs;
+-HandleMovementAllied.cs;
+-Stats.cs;
+-HexProp.cs;
+-HandleMovementEnemy.cs;
+-NextButton.cs;
+-AIDeply.cs;
+-AIEasy.cs;
+-FlagScript.cs;
+-Battle.cs;
+-AIbehaviour;

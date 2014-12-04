@@ -1,0 +1,39 @@
+O que falta fazer:
+-Adicionar novas animações para o combate e pausa;
+-Corrigir erros no combate;
+-Corrigir todas os erros da AI;
+
+
+O que esta feito:
+-Reduzido o tempo de processamento e melhor controlo das várias mecanicas;
+-Atualizado o código de controlo da camera;
+-Atualizado o codigo que detecta os hexagonos ocupados;
+-Feitas optimizações de performance em todo o código;
+-Adicionados botões de controlo de movimento e retirados os dois toques para parar a tropa
+(Isto corrige o erro das tropas pararem para sempre quando colidem com outra e permite agora reprogramar caminhos
+das tropas).
+-Adicionados os dois toques numa tropa para eliminar o seu caminho;
+-Corrigido o erro que permitia checkpoints substituirem pontes quando um checkpoint era conquistado;
+-Adicionado o botão de criação de torres para as tropas de artilharia;
+-Adicionar novo feedback nos botões de chamada de reforços;
+-Retirada provisória do código que permitia remover o hexagono seleccionado quando se clicava fora do campo de batalha;
+-Corrigido o erro que não deixava seleccionar caminhos;
+-Optimizado o codigo do HandleMovement dos aliados inimigos e general;
+-Verificar a performance em dispositivos moveis;
+-Corrigidos alguns erros da Ai nas funções basicas;
+-Correção de outros erros;
+
+Ficheiros alterados:
+-CameraMovement.cs;
+-GlobalVariables.cs;
+-HandleMovementAllied.cs;
+-HandleMovementEnemy.cs;
+-PauseGameButtonBehaviour.cs(novo);
+-ControlMovButtonBehaviour.cs(novo);
+-GeneralCombate.cs;
+-ButtonBehaviour.cs(Eliminado);
+-Stats;
+-Hexagons.cs;
+-ClickDirButton.cs;
+-AIEasy;
+-Aibehaviour.cs;

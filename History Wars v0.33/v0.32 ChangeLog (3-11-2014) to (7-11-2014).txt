@@ -1,0 +1,25 @@
+O que falta fazer:
+-Adicionar novas animações para o combate e pausa;
+-Corrigir erros no combate;
+
+
+O que esta feito:
+-Adicionado 1 segundo de pausa no movimento entre hexagonos;
+-Balanceado a velocidade de movimento de todas as tropas;
+-Corrigidos alguns erros no handleMovement;
+-Correção dos erros no menu de selecção do modo Arcade;
+-Adicionado um som para quando os inimigos chegam ao final do mapa;
+-Adicionados 2 novas musicas ao menu de inicio do jogo;
+-Agora as musicas do menu inicial vão-se repetindo uma de cada vez em loop;
+-Correção de vários erros.
+
+Ficheiros alterados:
+-GlobalVariables.cs;
+-HandleMovementAllied.cs;
+-HandleMovementEnemy.cs;
+-Stats.cs;
+-RestartGame.cs;
+-NextButton.cs;
+-DeployButtonBehaviour.cs;
+-HexProp.cs;
+-ChangeBackground.cs;

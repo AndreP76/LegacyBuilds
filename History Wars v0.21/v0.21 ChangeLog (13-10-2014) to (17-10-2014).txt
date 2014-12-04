@@ -1,0 +1,28 @@
+O que falta fazer:
+
+
+
+O que esta feito:
+-Corrigido o bug ocasional que não deixava as tropas inimigas avançarem quando deviam.
+-Mostrar o score em azul quando o jogador ganha pontos de score;
+-Score da inteligencia artificial;
+-Corrigido o erro com o alcance;
+-Guiar tropas atraves do toque;
+-As tropas só atacam quando estam as duas no centro do hexagono;
+-Adaptar a velocidade das tropas em fila. (Apenas para casos em que a velocidade da tropa da frente é inferior)
+-Corrigido o bug que permitia desenhar o caminho no campo de combate mesmo uma tropa não estava totalmente pausada.
+-Agora quando fazemos restart é feita uma limpesa ao campo à lista de caminhos de todas as tropas;
+-Uso do dicionario para dar soguestões de qual tropa deve ser usada pela AI;
+-A Ai agora também procura regularmente por novos checkpoints no mapa;
+-A AiFacil agora procura por objectivos no mapa como atacar pontos do mapa sem tropas e atacar a linha com o general inimigo. (Isto só acontece quando ela esta bem de financas)
+-Corrigidos vários erros;
+-Criar codigo que mede a situação financeira da AI;
+
+Ficheiros alterados:
+-HandleMovementAllied.cs;
+-Stats.cs;
+-HexProp.cs;
+-HandleMovementEnemy.cs;
+-GlobalVariables.cs;
+-Battle.cs;
+-AIEasy;

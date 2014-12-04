@@ -1,0 +1,26 @@
+O que falta fazer:
+-Guiar tropas atraves do toque;
+-Combate entre tropas;
+-Score;
+-Objectivo do jogo;
+-Pequena animação de combate;
+-Adaptar a velocidade das tropas em fila. (Apenas para casos em que a velocidade da tropa da frente é inferior)
+
+
+O que esta feito:
+-Atualizado o codigo de detenção de tropas dentro do hexagono;
+-Mostrar o valor de bonus de range de cada hexagono no UI;
+-Implementar um novo controlo de movimentos e velocidade;
+-Controlar a velocidade conforme o tipo de tropa e o hexagono que ocupa;
+-Animação de pausa de movimento;
+-Dois cliques para fazer para uma tropa.
+-Remover a selecção se clicarmos fora do campo de batalha.
+-Detenção do combate;
+-Correcção de alguns erros;
+
+Ficheiros alterados:
+-GlobalVariables.cs;
+-HandleMovementAllied.cs;
+-Stats.cs;
+-HexProp.cs;
+-HandleMovementEnemy.cs;

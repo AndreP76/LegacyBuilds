@@ -1,0 +1,26 @@
+O que falata fazer:
+-Sistema de previsão de movimentos;
+-Mostar os botões de controlo de movimentos apenas quando selecionamos uma tropa.
+-Os botões de controlo de movimento devem refletir a situação de cada tropa.
+-Classe Ai implementada;
+-Preparação da Ai facil;
+
+O que esta feito:
+Controlo de movimentos das tropas:
+-Previsão e adaptação a movimentos (tropas a 2 hexagonos de distancia);
+-Aliados movem-se para cima automaticamente (revisão);
+-Comando "MoveUp" para os aliados implementado (revisão);
+-Inimigos reconhecem obstáculos (revisão);
+-Previsão de movimento dos aliados quando estão em movimento na mesma linha (revisão);
+-Inimigos movem-se para cima ou para baixo automaticamente (revisão);
+-Implementado um criador de níveis que segue uma estrutura de dados;
+-Melhorias no display de informação do UI;
+-Correcção de vários bugs;
+
+Ficheiros alterados:
+HandleMovementAllied.cs
+HandleMovementInimigo.cs
+GlobalVariables.cs
+Hexagons.cs
+HexProp.cs
+Stats.cs

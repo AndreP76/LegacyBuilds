@@ -1,0 +1,36 @@
+O que falta fazer:
+-Adicionar novas animações para o combate e pausa;
+-Corrigir erros no combate;
+-Corrigir o handleMovement para evitar colisões;
+
+
+O que esta feito:
+-Melhorada a apresentação o UI do combate em termos gerais;
+-Adicionada uma label que mostra os pontos de score da AI;
+-Corrigida situação de não tocar musica no menu inicial quando o jogador ganhava ou perdia um jogo;
+-Agora o score do jogador e da AI só atualiza a cada 2.5s - Novo tempo para cada turno;
+-Agora os generais encontram-se posicionados uma casa fora do mapa de combate;
+-Agora as tropas que chegam ao fim do mapa tiram vida ao general para alem de tirarem pontos de score ao jogador
+inimigo;
+-Adicionados turnos ao movimento das tropas aliadas;
+-Adicionadas barras de vida para cada general no user interface. Estas vão sendo atualizadas em tempo real;
+-Adicionado um espaço no UI do jogador que mostra o numero de bandeiras conquistadas pelo jogador e pela AI;
+-Corrigido o erro nas musicas do menu inicial;
+-Adicionado um menu que mostra os pros e contras de cada tropa. Baste tocar numa tropa durante 2 segundos;
+-Varias optimizações de código no script HandleMovementAllied;
+-Optimizado o codigo que manipula a camera do jogo através do toque;
+-Testada a performance da manipulação da camera em um dispositivo movel;
+-Agora a aplicação verifica a plataforma de teste e adapta o código de input de controlo da camera;
+-Correção de erros e teste em dispositivos moveis;
+
+Ficheiros alterados:
+-GlobalVariables.cs;
+-HandleMovementAllied.cs;
+-HandleMovementEnemy.cs;
+-Stats.cs;
+-RestartGame.cs;
+-NextButton.cs;
+-DeployButtonBehaviour.cs;
+-HexProp.cs;
+-ChangeBackground.cs;
+-ObjectGroup.cs;

@@ -1,0 +1,39 @@
+O que falta fazer:
+-Sistema de previsão de movimentos;
+-Revisão final aos constrolos de movimento e colisão;
+-Opção de criação e destruição de obstáculos durante um jogo;
+-Adaptação Ai facil num campo com obstáculos;
+-Adaptação Ai facil num campo com obstáculos um rio e uma ponte;
+-Battle points;
+-Cavalaria;
+-Unidades de medio longo alcance;
+-Capitão (Objectivo do jogo);
+-Animar o movimento das tropas;
+-Revisão no combate
+
+O que esta feito:
+-Melhores controlos táteis;
+-Adicionados novos assets das tropas e prefabs;
+-Preparação da Ai facil;
+-Implementação da base de decisões da Ai facil num campo sem obstáculos;
+-Corrigidos alguns bugs da versão anterior;
+-Mostar os botões de controlo de movimentos apenas quando selecionamos uma tropa;
+-Os botões de controlo de movimento devem refletir a situação de cada tropa;
+-Melhorias no UI;
+-Menu de escolha de tropas;
+-Botão de pausa do jogo;
+-Correção de alguns erros;
+-Um unico botão para o controlo de movimentos;
+
+
+Ficheiros alterados:
+-HandleMovementAllied.cs
+-HandleMovementInimigo.cs
+-CameraMovement.cs
+-GlobalVariables.cs
+-Stats.cs
+-ClickDirButtons.cs
+-ButtonBehaviour.cs
+-HexProp.cs
+-AiEasy.cs
+-AiBehaviour.cs

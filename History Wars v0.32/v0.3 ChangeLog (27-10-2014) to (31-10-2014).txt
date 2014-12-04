@@ -1,0 +1,54 @@
+O que falta fazer:
+-Adicionar novas animações para o combate e pausa;
+-Corrigir erros no combate;
+-Melhorar feedback dos botões das tropas;
+-Melhorar resposta da AIFacil em termos gerais;
+-Corrigir o handleMovement dos caminhos (nos dispositivos moveis);
+-Melhorar o display de informações no menu de selecção de reforços;
+-Testar em dispositivos android e windows phone;
+
+
+O que esta feito:
+-Corrigido o erro que crashava o jogo quando escolhiamos a opção de restart;
+-Corrigido o erro que mostrava as opções de movimento aos generais (não era suposto);
+-Corrigido o erro que fazia com que as tropas ficassem paradas no mesmo sitio quando colidiam com outras tropas;
+-Finalmente corrigido o erro que deixava as tropas sairem do campo de batalha;
+-Corrigido o erro que permitia a AI recrutar tropas sem gastar dinheiro;
+-Corrigido o erro que não deixava a AI usar estratégias quando todas as linhas do campo estam ocupadas por tropas do jogador;
+-Corrigido o erro que crashava o jogo quando o mapa de combate tinha menos de 10 colunas;
+-Mapas com menos de 10 colunas não vão ter rios;
+-Corrigido o erro que permitia o jogador receber dinheiro quando uma tropa inimiga chegava ao fim do campo de batalha;
+-Corrigido o erro que perimia o AI executar acções antes do inicio da batalha;
+-Corrigido o problema de feedback no valor do score;
+-Corrigidos alguns erros no combate;
+-Corrigidas as detenções de tropas em 2 hexagonos de distância;
+-Adicionado um som quando as tropas chegam a fim do mapa;
+-Adicionado um som quando sao chamados reforços;
+-Adicionado um som de game over e outro para quando o jogador ganha;
+-Corrigido o erro de feedback quando uma luta acabava;
+-Corrigido o erro que fazia tocar o som de game over no inicio do jogo;
+-Mais optimizações de código do HandleMovement dos Aliados e Inimigos;
+-Corrigido o erro da musica em background errada;
+-Corrigido o problema do som não ser consistente quando o jogador desloca a camera;
+-Corrigido a sitação em que um general matava uma tropa e esta não perdia o seu caminho desenhado pelo
+jogador;
+-Corrigida situação em que uma tropa seguia o caminho desenhado pelo jogador e ignorava batalhas;
+-Corrigido o problema que dava uma excepção numa situação ao desenhar o caminho para uma tropa;
+-Mais melhorias de permormance no handleMovement dos aliados quando o jogador desenha um caminho;
+-Melhorada o feedback do toque quando o jogador desenha um caminho.
+-Corrigida a situação em que uma tropa parava a meio do caminho quando estava perto de um general;
+-Mais uma vez corrigido o erro que fazia parar para sempre as tropas que colidiam;
+-Corrigido o erro que não deixava as tropas seguirem caminho quando uma tropa aliada estava pausada à sua frente;
+-Corrigido o erro que permitia desenhar mais do que 1 caminho para cada tropa;
+-Junção de código entre a equipa;
+-Correção de vários erros;
+
+Ficheiros alterados:
+-GlobalVariables.cs;
+-AIEasy.cs;
+-HandleMovementAllied.cs;
+-HandleMovementInimigo.cs;
+-RestartGame;
+-HexProp;
+-CameraMovement.cs;
+-Battle.cs;

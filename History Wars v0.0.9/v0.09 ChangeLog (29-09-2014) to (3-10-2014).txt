@@ -1,0 +1,40 @@
+O que falta fazer:
+-Battle points;
+-Capitão (Objectivo do jogo);
+-Combate (Revisão 1);
+-Mostrar percentagem de vida para cada tropa;
+-Mostrar atributos das tropas quando selecionadas;
+-Atribuir atributos a cada tropa conforme a sua classe e tipo;
+-Velocidades de movimento diferentes para as diferentes classes e tipos;
+-Controlo de Movimentos (3ª Revisão);
+
+
+O que esta feito:
+-Combate por turnos;
+-Novos checkpoints com bandeira;
+-Opção de criação e destruição de obstáculos durante um jogo;
+-Adaptação Ai facil num campo com obstáculos;
+-Adaptação Ai facil num campo com obstáculos um rio e uma ponte;
+-Sistema de previsão de movimentos;
+-constrolos de movimento e colisão (Revisão 1);
+-Animar o movimento das tropas (Imcompleto);
+-Verificar obstaculos à volta de bandeiras;
+-Cavalaria;
+-Unidades de medio longo alcance;
+-Botão de restart;
+-O controlo da camara agora adapta-se ao cumprimento do campo de batalha;
+-Corrigido o erro que não deixava mostrar as stats dos hexagonos normais;
+-Corrigidos outros erros e feitas melhorias;
+
+
+Ficheiros alterados:
+-GlobalVariables.cs
+-ClickDirButtons.cs
+-HexProp.cs
+-Stats.cs
+-AIEasy.cs
+-HandleMovementAllied.cs
+-HandleMovementEnemy.cs
+-TroopSelection.cs
+-CamaraMovement.cs
+-Hexagons.cs
